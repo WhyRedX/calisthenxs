@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+:root {
+  --logo-color:#2d86dd;
+  --dark-color: #1a1a1a;
+  --white-color: #ffffff;
+  --semi-grey-color:#a6aaadc4;
+  --grey-color:#717171;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #000;
+  color: var(--dark-color);
+  letter-spacing: 1px;
+  scroll-behavior: smooth;
+}
+/*                utility               */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6, a, p{
+  color: var(--white-color);
+}
+ul {
+  list-style: none;
+}
+li{
+  color:var(--white-color);
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover{
+  color:var(--logo-color);
+}
+span{
+  color: var(--logo-color);
+}
+.fa{
+  font-size: 17px;
+}
+.div-btn{
+  width: 170px;
+  background-color:transparent;
+  border: 2px solid var(--logo-color);
+  border-radius: 4px;
+}
+.div-btn a{
+  font-size: .9rem;
+  color: var(--logo-color);
+  margin: .8rem .5rem;
+}
+.div-btn:hover{
+  background-color: var(--logo-color); 
+}
+.div-btn:hover a{
+  color: #f1f1f1;
+}
+/******************************************/

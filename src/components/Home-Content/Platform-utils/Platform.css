@@ -1,0 +1,90 @@
+#platform-section{
+    max-width: 1500px;
+    margin: 0 auto 7rem auto;
+}
+.platform-container{
+    display: flex;
+    flex-direction: column;
+}
+.platform-head{
+    display: block;
+    margin-bottom:6%;
+    padding: 0 10%;
+}
+.platform-head h1{
+    font-size: 2.1rem;
+    text-align: center;
+}
+.platform-content{
+    display: flex;
+    align-items: center;
+    padding: 0 8%;
+}
+.platform-content::before{
+    content: "";
+    width: 100%;
+    height:290px;
+    position: absolute;
+    left: 0;
+    background-color: var(--logo-color);
+    z-index: -1;
+}
+.platform-text{
+    display: block;
+    margin-left: auto;
+}
+.platform-text h1{
+    margin-bottom: 2.5rem;
+}
+.platform-text li{
+    list-style-type:disc;
+    list-style-position: inside;
+    margin-bottom: .5rem;
+}
+#social-section-platform{
+    max-width: 1500px;
+    margin: 0 auto 7rem auto;
+}
+.social-platform-container{
+    flex-direction: column;
+}
+.social-platform-content{
+    width: 90%;
+    background-color: var(--logo-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 12px;
+    padding-bottom: 1.8rem;
+}
+.social-icon-box a{
+    flex-direction: column;
+    
+}
+.social-icon-box a:hover{
+    color: var(--white-color);
+} 
+.social-icon-box p{
+    font-size: 23px;
+}
+.social-platform-head h1{
+    font-size: 2.1rem;
+    margin: 1rem 0;
+}
+.social-platform-content div{
+    width: 100px;
+}
+.social-platform-content div .fa{
+    font-size: 50px;
+    margin: 2rem 0;
+}
+
+
+@media(max-width:1340px){
+    .platform-content{
+        flex-direction: column;
+    }
+    .platform-text{
+        margin: 2rem auto;
+    }
+}
