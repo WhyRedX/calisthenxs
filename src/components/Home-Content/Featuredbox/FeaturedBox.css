@@ -45,12 +45,10 @@
 
 @media(max-width:1317px){
     .featuredBox-content-container{
-        flex-wrap: wrap;
         margin: 0;
     }
     .featuredBox-content {
         margin-top: 3.3rem;
-        padding: 0 5rem;
     } 
 }
 @media(max-width:535px){
